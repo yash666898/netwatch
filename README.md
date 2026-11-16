@@ -30,7 +30,7 @@ NetWatch is a local Flask prototype for monitoring networks you own or are expli
 
 4. Visit `http://127.0.0.1:5000`.
 
-The app deliberately requires the authorisation checkbox for discovery and port scans. Start with `127.0.0.1` or a lab subnet you control.66
+The app deliberately requires the authorisation checkbox for discovery and port scans. Start with `127.0.0.1` or a lab subnet you control.6
 
 For packet-probe detection on Windows, install [Npcap](https://npcap.com/) and run the terminal as Administrator. This feature observes only local traffic visible to your machine; use it solely on an authorised network.
 python run.py
